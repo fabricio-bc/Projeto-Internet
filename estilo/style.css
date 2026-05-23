@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* 
+  --fundo #011C6B
+  --descrição #011142
+  --fundo-inverso #01258F
+  --texto-inverso #023BE6
+  --texto #0231BD
+ */
+
+ :root{
+   --fundo:#011C6B;
+   --texto:#011142;
+   --fundo-inverso: #01258F;
+   --titulo-inverso: #023BE6;
+   --titulo: #0231BD;
+ }
