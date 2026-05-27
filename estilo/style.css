@@ -29,7 +29,7 @@ header{
   background-image: linear-gradient(360deg, #011C6B, #1e41ac);
   color: var(--titulo-inverso);
   padding: 10px;
-  box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.116);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
 
   display: flex;
   flex-direction: column;
@@ -71,7 +71,7 @@ main{
 
 
 h2{
-  padding: 10px;
+  padding: 20px;
   color: var(--titulo);
 }
 p {
@@ -83,27 +83,53 @@ p {
 ul{
   padding: 20px 40px 20px 40px ;
 }
-.container{
-  display: grid;
-  grid-template-columns: 10px 2fr 10px;
+
+ul strong{
+  color: var(--titulo-inverso);
 }
 
-.item{
-  grid-column: 2 / 3;
+ul li{
+  padding-bottom: 10px;
+}
+
+li::marker{
+  color: var(--titulo-inverso);
 }
 
 img{
-  width: 450px;
-  padding: 20px;
- 
+  width: 100%;
+  display: block;
+  margin: auto;
 }
 
+#video{
+   background-color: var(--fundo-inverso);
+   margin-right: -20px;
+   margin-left: -20px;
+   
+}
 iframe{
- background-color: var(--fundo-inverso);
  width: 450px;
- padding: 20px;
+ padding: 5px;
+ display: block;
+ margin: auto;
 }
 
 footer{
   background-color: var(--fundo-inverso);
+}
+
+footer p{
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: #6f90f3;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: var(--titulo);
+
 }
