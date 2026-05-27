@@ -70,12 +70,13 @@ main{
 }
 
 
-h2{
-  font-size: 1.8em;
+main h2{
+  font-size: 2em;
   padding: 20px;
   color: var(--titulo);
 }
-p {
+main p {
+  font-size: 1.2em;
   text-align: justify;
   padding: 10px;
 
@@ -91,6 +92,7 @@ ul strong{
 
 ul li{
   padding-bottom: 10px;
+  font-size: 1.2em;
 }
 
 li::marker{
@@ -109,6 +111,7 @@ img{
    margin-left: -20px;
    
 }
+
 iframe{
  width: 450px;
  height: 300px;
@@ -124,6 +127,8 @@ footer{
 footer p{
   text-align: center;
   color: white;
+  font-size: 1em;
+  padding: 5px;
 }
 
 footer a {
@@ -134,4 +139,16 @@ footer a {
 footer a:hover{
   color: var(--titulo);
 
+}
+
+@media screen and (min-width: 768px) {
+  
+iframe{
+ width: 600px;
+ height: 400px;
+ padding: 10px;
+ display: block;
+ margin: auto;
+}
+  
 }
